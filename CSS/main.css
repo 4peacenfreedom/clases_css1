@@ -1,0 +1,90 @@
+/* RESETEAR ESTILOS  */
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales del documento  */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin: 15px auto;
+  }
+  
+  /* Estilos del Header  */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    overflow: hidden;
+  }
+  
+  /* Estilos del logo  */
+  .logo {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  /* Estilos del NAV  */
+  nav ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos de los Enlaces del nav  */
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Estilos del main  */
+  main {
+    padding: 20px;
+  }
+  
+  /* Estilos del separador  */
+  hr {
+    border: 1px black solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+  }
+  
+  /* Estilos de los titulos y parrafos  */
+  .subtitulo {
+    font-size: 1.5em;
+  }
+  .parrafo {
+    font-size: 1.2em;
+  }
+  
+  /* Estilos de las listas  */
+  ul.lista {
+    list-style-type: none;
+  }
+  ul.lista li.item {
+    margin-bottom: 10px;
+  }
+  
+  ul.lista li.item a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  ul.lista li.item a:hover {
+    color: red;
+  }
+  
+  /* Estilos del footer  */
+  footer {
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  

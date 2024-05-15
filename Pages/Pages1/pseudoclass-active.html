@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="/CSS/main.css" />
+    <link rel="stylesheet" href="/CSS/Estilos1/seudostyles.css" />
+
+    <title>Clases de CSS - Hover</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="Index.html">Inicio</a></li>
+          <li><a href="/Pages/Pages1/pseudoclass-hover.html">Hover</a></li>
+          <li><a href="/Pages/Pages1/pseudoclass-focus.html">Focus</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h2>Pseudo clase :active</h2>
+        <p>
+          La pseudo-clase <strong>:active</strong> en CSS se utiliza para
+          aplicar estilos a un elemento mientras está siendo activado por el
+          usuario. En general, se activa cuando un usuario hace clic en un
+          elemento, aunque también puede ser activado por otros eventos
+          dependiendo del tipo de elemento.
+        </p>
+        <p>
+          Por ejemplo, cuando haces clic en un botón, enlace o cualquier otro
+          elemento interactivo, el navegador aplica temporalmente los estilos
+          definidos para <strong>:active</strong> a ese elemento.
+        </p>
+      </div>
+      <div>
+        <p>Aqui hay un ejemplo:</p>
+
+        <div class="code">
+          <pre><code>
+            /* Ejemplo de codigo CSS para realizar el :active  */
+            
+            a:active {
+              color: green; /* Cambia el color del enlace cuando está siendo activado */
+            }
+          </code></pre>
+        </div>
+        <p><small>En este ejemplo, cuando un usuario hace clic en un enlace <a>, el color del texto del enlace cambiará a verde mientras está siendo activado. Una vez que el usuario suelta el clic, el color volverá a su estado original.</small></p>
+
+        <!-- <li><a class="clickme" href="#">Clickme</a></li> -->
+        <p>Y como funcionaria, haz click en el enlace y ve como se vuelve en verde haha:</p>
+        <div class="anchor-ejemplo">
+          <a class="activeClass" href="https://google.com" target="_blank"
+            >Ir a Google</a
+          >
+        </div>
+        <!-- <input type="text" class="texto" /> -->
+      </div>
+    </main>
+
+    <!-- FOOTER  -->
+    <footer class="footer">Este es el pie de página.</footer>
+  </body>
+</html>

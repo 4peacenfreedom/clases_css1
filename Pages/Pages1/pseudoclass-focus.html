@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="/CSS/main.css" />
+    <link rel="stylesheet" href="/CSS/Estilos1/seudostyles.css" />
+
+    <title>Clases de CSS - Hover</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="Index.html">Inicio</a></li>
+          <li><a href="/Pages/Pages1/pseudoclass-active.html">Active</a></li>
+          <li><a href="/Pages/Pages1/pseudoclass-hover.html">Hover</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h2>Pseudo clase :focus</h2>
+        <p>
+          La pseudo-clase :focus en CSS se utiliza para aplicar estilos a un
+          elemento cuando recibe el foco de atención del usuario. Un elemento
+          recibe el foco cuando el usuario lo selecciona para interactuar con
+          él, generalmente mediante el uso del teclado o el ratón. Por ejemplo,
+          cuando haces clic en un campo de entrada de texto, este campo se
+          enfoca y puedes comenzar a escribir en él.
+        </p>
+        <p>
+          La pseudo-clase :focus es muy útil para proporcionar feedback visual
+          al usuario cuando interactúa con formularios o elementos interactivos
+          de una página web. Esto puede ayudar a mejorar la usabilidad y la
+          accesibilidad del sitio.
+        </p>
+      </div>
+      <div>
+        <p>Aqui hay un ejemplo:</p>
+
+        <div class="code">
+          <pre><code>
+            /* Ejemplo de codigo CSS para realizar el :focus  */
+            
+            input:focus {
+              border: 2px solid red; /* Cambia el borde del campo de entrada cuando está enfocado */
+            }
+            
+          </code></pre>
+        </div>
+
+        <!-- <li><a class="clickme" href="#">Clickme</a></li> -->
+        <p>
+          Y como se funcionaria? haz click en el area de texto y veras como el
+          borde se vuelve rojo
+        </p>
+        <div class="anchor-ejemplo">
+          <input type="text" class="texto" />
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER  -->
+    <footer class="footer">Este es el pie de página.</footer>
+  </body>
+</html>

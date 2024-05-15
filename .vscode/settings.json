@@ -1,10 +1,7 @@
 {
-    "cSpell.language": "en,es-ES",
-    "auto-rename-tag.activationOnLanguage": [
-        
-        "*"
-    ],
-    "editor.cursorBlinking": "expand",
-    "powermode.enabled": true,
-   
+  "cSpell.language": "en,es-ES",
+  "auto-rename-tag.activationOnLanguage": ["*"],
+  "editor.cursorBlinking": "expand",
+  "powermode.enabled": true,
+  "liveServer.settings.port": 5501
 }

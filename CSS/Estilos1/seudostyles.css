@@ -1,0 +1,34 @@
+/* ESTILOS DEL NAV  */
+nav li {
+  float: left;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: rgb(0, 195, 255);
+}
+
+nav a:active {
+  text-decoration: underline;
+}
+
+div a.activeClass:active {
+  color: green;
+}
+
+a.google:hover {
+  color: red;
+}
+
+input {
+  background-color: white;
+}
+
+input:focus {
+  border: 5px solid red; /* Cambia el borde del campo de entrada cuando está enfocado */
+}
+
+div.code {
+  background-color: #333;
+  color: aliceblue;
+}
